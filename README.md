@@ -64,8 +64,6 @@ Keterangan!
 | Setthumb | ✔️ |
 | On | ✔️ |
 | Off | ✔️ |
-| Addrespon | ✔️ |
-| Delrespon | ✔️ |
 | Setprefix nopref/multi | ✔️ |
 | Set Target | ✔️ |
 | Banned | ✔️ |
@@ -91,7 +89,5 @@ Keterangan!
 | Group Info | ✔️ |
 | Tutup | ✔️ |
 | Buka | ✔️ |
-| Leave Time | ✔️ |
-| Tutup Time | ✔️ |
 
 DAN LAIN LAIN MALES NULIS AJG
