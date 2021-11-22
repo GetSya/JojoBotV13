@@ -43,6 +43,10 @@ npm update
 
 ---------
 
+## INSTALL MODULES
+
+node_modules : [Click Here!](https://drive.google.com/file/d/15KC6sMJPRAvftHGT4g4sKQLrvPW9YA2U/view?usp=drivesdk)
+
 ## FITUR
 Keterangan!
 - Aktif : ✔️
