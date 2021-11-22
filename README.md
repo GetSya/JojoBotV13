@@ -9,7 +9,7 @@
 - $pkg install nodejs -y
 - $pkg install bash
 - $pkg install ffmpeg -y
-- $git clone https://github.com/GetSya/Jojo-Github
+- $git clone https://github.com/GetSya/JojoBotV13
 - $cd Jojo-Github
 - $bash install.sh
 - $npm i multistream
