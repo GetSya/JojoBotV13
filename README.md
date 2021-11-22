@@ -26,7 +26,7 @@
 * Download Dan Install ImageMagick [`Klik Disini`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/GetSya/Jojo-Github
+git clone https://github.com/GetSya/JojoBotV13
 cd Jojo-Github
 npm install
 npm i imgbb-uploader
