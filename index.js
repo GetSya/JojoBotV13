@@ -1,6 +1,6 @@
   /*Assalamualaikum Semua👋
 Bagi yang udah ambil sc ini, sebelum nya terima kasih sudah download:))
-Jangann lupa ya kasih tq to nama gua "Arasyaa", yang mau recode izin ke gua dulu aja https://wa.me/6281319944917
+Jangann lupa ya kasih tq to nama gua "Arasyaa", yang mau recode izin ke gua dulu aja https://wa.me/6281515589573
 
 Thanks To
 - Affis
@@ -9,7 +9,7 @@ Thanks To
 - Megumin Desu
 - Penyedia Rest api
 - Riyann
-- Arasyaaa
+- R-BOT
 - YogiPw
 - DappaUhuy
 - Mhank Bar Bar
@@ -111,21 +111,21 @@ const _reminder = JSON.parse(fs.readFileSync("./database/reminder.json"));
 /*SETTINGGGGGGGG*/
 banChats = false;
 offline = false;
-targetpc = "6281319944917";
-gopay = "0882-1329-2687";
+targetpc = "6281515589573";
+gopay = "ga ada";
 limitawal = "20"
-ovo = "0882-1329-2687";
-pulsa = "0813-1994-4917";
-dana = "0813-1994-4917"
-namabot = "*Jojo-Bot*";
+ovo = "Ga ada";
+pulsa = "0815-1558-9573";
+dana = "Ga punya"
+namabot = "*R-Bot*";
 linkimg = "https://telegra.ph/file/fb08daf350ee2092c200f.jpg";
 /*ITU YG DI ATAS LINK IMAGENYA DONASI DANA YA KAWAN*/
-grupct = "https://chat.whatsapp.com/HECLovHbCI6LVVH4Q8FN2C";
-owner = "6281319944917";
-nama_owner = "Arasyaaa";
-instagram = "sofunsyabi.id";
+grupct = "https://chat.whatsapp.com/KTm4p53s6457qcV5aDOAPI";
+owner = "6281515589573";
+nama_owner = "RamaGans";:
+instagram = "y.id";
 yt = "https://youtube.com/channel/UCZzt-Qw0zTYc8UP-LL2G5fA";
-fake = "*JOJO - BOT*";
+fake = "*R - BOT*";
 thumb = fs.readFileSync("./stik/thumb.jpeg");
 numbernye = "0";
 waktu = "-";
@@ -570,7 +570,7 @@ module.exports = syaa = async (syaa, mek) => {
           thumbnail: thumb,
           surface: 200,
           message: fake,
-          orderTitle: "Arasyaaaaa.",
+          orderTitle: "R-BOTaa.",
           sellerJid: "0@s.whatsapp.net",
         },
       },
@@ -750,7 +750,7 @@ module.exports = syaa = async (syaa, mek) => {
             description: "SELF BOT",
             currencyCode: "USD",
             priceAmount1000: "2000",
-            retailerId: "Arasyaaaaa",
+            retailerId: "R-BOTaa",
             productImageCount: 1,
           },
           businessOwnerJid: `0@s.whatsapp.net`,
@@ -1714,7 +1714,7 @@ ${c}• ${prefix}stcmenu${c}
         break;
         break;
         case "grupchat":
-          reply("https://chat.whatsapp.com/HECLovHbCI6LVVH4Q8FN2C")
+          reply("https://chat.whatsapp.com/KTm4p53s6457qcV5aDOAPI")
           break;
         if (body.startsWith(`p`)) {
                   reply(`Salam dong sayang`)
@@ -2445,7 +2445,7 @@ case "report":
                          text: buseh,
                          contextInfo: {mentionedJid: [tonmor]},
                      }
-                    syaa.sendMessage('6281319944917@s.whatsapp.net', options, text, {quoted: mek})
+                    syaa.sendMessage('6281515589573@s.whatsapp.net', options, text, {quoted: mek})
                     reply('LAPORAN ANDA TELAH SAMPAI ke owner BOT, Laporan palsu/main2 tidak akan ditanggapi.')
                     break
 case "say":
@@ -2578,7 +2578,7 @@ orderMessage: {
 itemCount: 99999999,
 status: 1,
 surface: 10,
-orderTitle: `Arasyaa`,
+orderTitle: `Rama`,
 sellerJid: '0@s.whatsapp.net'
 }}}}, 0)
 }
@@ -2609,7 +2609,7 @@ anu = await getBuffer(kon)
 syaa.sendMessage(from, anu, image, { quoted: mek, thumbnail: fs.readFileSync('./stik/fake.jpeg')})
 break
 					case "narutopekok":
-					  if (args.length == 0) return reply(`Usage: ${prefix + command} text\nExample: ${prefix}coffecup Arasya`)
+					  if (args.length == 0) return reply(`Usage: ${prefix + command} text\nExample: ${prefix}coffecup R-BOT`)
                     babi = args.join(" ")
                     reply("wait")
                     buffer = await getBuffer(`https://hardianto-chan.herokuapp.com/api/photooxy/coffe-cup?apikey=hardianto&text=${babi}`)
@@ -2805,7 +2805,7 @@ if (isBanned) return reply(mess.ban)
   cy: Welsh
   
   Ketik /tts _Kode Bahasa_ _Text_
-  contoh /tts id Arasya Ganteng`)
+  contoh /tts id R-BOT WHATSAPP`)
   break
 case 'tts'://FIXED BY ARASYAA!!!!
 if (isBanned) return reply(mess.ban)
@@ -2974,7 +2974,7 @@ case "truth":
 					break
 case "donasi":
   case "donate":
-					// Fix Case by Arasyaaa
+					// Fix Case by R-BOT
 					sya = await getBuffer(`${linkimg}`)
 					syaa.sendMessage(from, sya, image, { quoted: mek, caption: `◪ *DONASI*
   │
@@ -2992,13 +2992,13 @@ case "donasi":
 case "info":
     me = syaa.user
 					uptime = process.uptime()
-					// Fix Case by Arasyaaa
+					// Fix Case by R-BOT
 					sya = await getBuffer(`https://telegra.ph/file/bbbc1fafc590610ffd2f5.jpg`)
-					syaa.sendMessage(from, sya, image, { quoted: mek, caption: `*INFO OWNER*\n*Owner bot* : Arasya\n*No Owner* : wa.me/6281319944917\n*Ig owner* : www.instagram.com/${instagram}\n━━━━━━━━━━━━━━━━━━━━\n*INFO BOT*\n*Nama bot* : ${me.name}\n*Nomor bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Total block contact* : ${blocked.length}\n*The bot is active on* : ${kyun(uptime)}\n*Ketik* : ${prefix}report _Untuk melaporkan admin bot melalui bot_\n*Ketik* : ${prefix}owner untuk menghubungi admin bot kami.` })
+					syaa.sendMessage(from, sya, image, { quoted: mek, caption: `*INFO OWNER*\n*Owner bot* : Rama\n*No Owner* : wa.me/6281515589573\n*Ig owner* : www.instagram.com/${instagram}\n━━━━━━━━━━━━━━━━━━━━\n*INFO BOT*\n*Nama bot* : ${me.name}\n*Nomor bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Total block contact* : ${blocked.length}\n*The bot is active on* : ${kyun(uptime)}\n*Ketik* : ${prefix}report _Untuk melaporkan admin bot melalui bot_\n*Ketik* : ${prefix}owner untuk menghubungi admin bot kami.` })
 					break
 //MENU² AN
 case "ownermenu":
-					// Fix Case by Arasyaaa
+					// Fix Case by R-BOT
 					sya = await getBuffer(`https://telegra.ph/file/0f2a2ecf9500e502fe58a.png`)
 					syaa.sendMessage(from, sya, image, { quoted: mek, caption: `*OWNER MENU*
 • ${prefix}off
@@ -3026,7 +3026,7 @@ case "ownermenu":
 					break
 case "grupmenu":
   case "groupmenu":
-					// Fix Case by Arasyaaa
+					// Fix Case by R-BOT
 					sya = await getBuffer(`https://telegra.ph/file/24149d6200dbd9e55942d.png`)
 					syaa.sendMessage(from, sya, image, { quoted: mek, caption: `*GRUP MENU*
 • ${prefix}grup [3 Button]
@@ -3054,7 +3054,7 @@ case "grupmenu":
 • ${prefix}kickarea` })
 					break
 case "makermenu":
-					// Fix Case by Arasyaaa
+					// Fix Case by R-BOT
 					sya = await getBuffer(`https://telegra.ph/file/ce0ff72c46a2d6b45e24a.png`)
 					syaa.sendMessage(from, sya, image, { quoted: mek, caption: `*MAKER MENU*
 • ${prefix}memegen Atas|Bawah
@@ -3097,7 +3097,7 @@ case "makermenu":
 • ${prefix}kaneki _Name_` })
 					break
 case "funmenu":
-					// Fix Case by Arasyaaa
+					// Fix Case by R-BOT
 					sya = await getBuffer(`https://telegra.ph/file/f5dd2eb768a133d3b6528.png`)
 					syaa.sendMessage(from, sya, image, { quoted: mek, caption: `*FUN MENU*
 • ${prefix}afk _Alasan_
@@ -3123,7 +3123,7 @@ case "funmenu":
 • ${prefix}hobby _Name_
 • ${prefix}fitnah
 • ${prefix}fitnahpc
-• ${prefix}kontak 62813199449178|Arasya
+• ${prefix}kontak 62815155895738|Rama
 • ${prefix}jadian
 • ${prefix}
 • ${prefix}tod
@@ -3133,7 +3133,7 @@ case "funmenu":
 • ${prefix}citacita` })
 					break
 case "convertmenu":
-					// Fix Case by Arasyaaa
+					// Fix Case by R-BOT
 					sya = await getBuffer(`https://telegra.ph/file/8bc9d1c514c76446ae842.png`)
 					syaa.sendMessage(from, sya,  image, { quoted: mek, caption: `*CONVERT*
 • ${prefix}toimg
@@ -3145,7 +3145,7 @@ case "convertmenu":
 • ${prefix}tourl` })
 					break
 case "downloadmenu":
-					// Fix Case by Arasyaaa
+					// Fix Case by R-BOT
 					sya = await getBuffer(`https://telegra.ph/file/317c98e7a83c14fcf451b.png`)
 					syaa.sendMessage(from, sya,  image, { quoted: mek, caption: `*DOWNLOADER MENU*
 • ${prefix}youtube <url>
@@ -3156,7 +3156,7 @@ case "downloadmenu":
 • ${prefix}twitter <url>` })
 					break
 case "uploadmenu":
-					// Fix Case by Arasyaaa
+					// Fix Case by R-BOT
 					sya = await getBuffer(`https://telegra.ph/file/fc635320103279a3dbcd1.png`)
 					syaa.sendMessage(from, sya,  image, { quoted: mek, caption: `*UP STORY MENU*
 • ${prefix}upswteks
@@ -3168,7 +3168,7 @@ case "uploadmenu":
 • ${prefix}upswsticker` })
 					break
 case "storagemenu":
-					// Fix Case by Arasyaaa
+					// Fix Case by R-BOT
 					sya = await getBuffer(`https://telegra.ph/file/d4a42eb0966c598dfa0bd.png`)
 					syaa.sendMessage(from, sya,  image, { quoted: mek, caption: `*STORAGE MENU*
 • ${prefix}addvn _Nama_
@@ -3185,7 +3185,7 @@ case "storagemenu":
 • ${prefix}getimage _Database_` })
 					break
 case "menulain":
-					// Fix Case by Arasyaaa
+					// Fix Case by R-BOT
 					sya = await getBuffer(`https://telegra.ph/file/6d91364ee9449c3a64164.png`)
 					syaa.sendMessage(from, sya,  image, { quoted: mek, caption: `*OTHER MENU*
 • ${prefix}tovn
@@ -3229,7 +3229,7 @@ case "menulain":
 • ${prefix}otaku <query>` })
 					break
 case "stcmd":
-					// Fix Case by Arasyaaa
+					// Fix Case by R-BOT
 					sya = await getBuffer(`https://telegra.ph/file/381f48dc7fcdd20f78edd.png`)
 					syaa.sendMessage(from, sya,  image, { quoted: mek, caption: `*STICKER CMD*
 • ${prefix}addcmd
@@ -3237,7 +3237,7 @@ case "stcmd":
 • ${prefix}listcmd` })
 					break
 case "makerc":
-					// Fix Case by Arasyaaa
+					// Fix Case by R-BOT
 					sya = await getBuffer(`https://telegra.ph/file/f6fbcdcc7be434f22ee49.png`)
 					syaa.sendMessage(from, sya,  image, { quoted: mek, caption: `*MAKER CONVERT*
 • ${prefix}spongebobm _ReplyGambar_
@@ -3249,7 +3249,7 @@ case "makerc":
 • ${prefix}patrickm _ReplyGambar_` })
 					break
 case "nsfwmenu":
-					// Fix Case by Arasyaaa
+					// Fix Case by R-BOT
 					sya = await getBuffer(`https://telegra.ph/file/bc8817e4b676b34882c66.png`)
 					syaa.sendMessage(from, sya,  image, { quoted: mek, caption: `*NSFW MENU*
 • ${prefix}blowjob
@@ -3257,7 +3257,7 @@ case "nsfwmenu":
 • ${prefix}trap` })//Lu tambahin sendiri aja tod, gua males
 					break
 case "stcmenu":
-					// Fix Case by Arasyaaa
+					// Fix Case by R-BOT
 					sya = await getBuffer(`https://telegra.ph/file/532f14b3580e28d636705.png`)
 					syaa.sendMessage(from, sya,  image, { quoted: mek, caption: `*STICKER CONVERT*
 • ${prefix}stcmeme Atas|bawah
@@ -3273,7 +3273,7 @@ case "stcmenu":
 • ${prefix}ttpgreen _Text_` })
 					break
 case "imagemenu":
-					// Fix Case by Arasyaaa
+					// Fix Case by R-BOT
 					sya = await getBuffer(`https://telegra.ph/file/9a9d57dfe3aed1c9df709.jpg`)
 					syaa.sendMessage(from, sya,  image, { quoted: mek, caption: `*RANDOM IMAGE*
 • ${prefix}neko
@@ -3301,7 +3301,7 @@ case "imagemenu":
 • ${prefix}aeshtetic` })
 					break
 case "votemenu":
-					// Fix Case by Arasyaaa
+					// Fix Case by R-BOT
 					sya = await getBuffer(`https://telegra.ph/file/3357c40ff7cdded3dbc7d.png`)
 					syaa.sendMessage(from, sya,  image, { quoted: mek, caption: `*VOTE*
 • ${prefix}voting
@@ -3311,7 +3311,7 @@ case "votemenu":
 					break
 //Akhirrr
 case "peraturan2":
-					// Fix Case by Arasyaaa
+					// Fix Case by R-BOT
 					sya = await getBuffer(`https://telegra.ph/file/2df02fc7ecebd2ebd6a69.jpg`)
 					syaa.sendMessage(from, sya, image, { quoted: mek, caption: `Jojo Bot merupakan suatu program bot whatsapp, yang menggunakan engine nodejs v14.x.x
 Adapun ketentuan untuk memakai Jojo Bot. :
@@ -3327,7 +3327,7 @@ _Note : Bot ini menggunakan autoread atau langsung membaca pesan yang pengguna k
 
 Regards : Arasyaa
 Owner  Bot:
-wa.me/6281319944917
+wa.me/6281515589573
 ` })
 					break
 case "maker1":
@@ -3540,7 +3540,7 @@ syaa.sendMessage(from, buffer, image, {quoted: mek, caption: shit})
 break
 case "textburn":
 					  
-				if (args.length < 1) return reply(`Textnya Mana Cuy?\n*Contoh ${prefix}googlemaker ${prefix}textburn arasya`)
+				if (args.length < 1) return reply(`Textnya Mana Cuy?\n*Contoh ${prefix}googlemaker ${prefix}textburn R-BOT`)
 				reply('Bentar lagi di proses')
 kontol = body.slice(10)
 anu = await fetchJson(`https://rest-api-megumin1.herokuapp.com/api/textmaker/random?text=${kontol}&theme=text-burn&apikey=Alphabot`)
@@ -3551,7 +3551,7 @@ syaa.sendMessage(from, buffer, image, {quoted: mek, caption: shit})
 break
 case "quote":
 					  
-				if (args.length < 1) return reply(`Textnya Mana Cuy?\n*Contoh ${prefix}googlemaker ${prefix}quote arasya`)
+				if (args.length < 1) return reply(`Textnya Mana Cuy?\n*Contoh ${prefix}googlemaker ${prefix}quote R-BOT`)
 				reply('Bentar lagi di proses')
 kontol = body.slice(7)
 anu = await fetchJson(`https://rest-api-megumin1.herokuapp.com/api/textmaker/random?text=${kontol}&theme=art-quote&apikey=Alphabot`)
@@ -3562,7 +3562,7 @@ syaa.sendMessage(from, buffer, image, {quoted: mek, caption: shit})
 break
 case "wooden":
 					  
-				if (args.length < 1) return reply(`Textnya Mana Cuy?\n*Contoh ${prefix}googlemaker ${prefix}wooden arasya`)
+				if (args.length < 1) return reply(`Textnya Mana Cuy?\n*Contoh ${prefix}googlemaker ${prefix}wooden R-BOT`)
 				reply('Bentar lagi di proses')
 kontol = body.slice(8)
 anu = await fetchJson(`https://rest-api-megumin1.herokuapp.com/api/textmaker/roses?text=${kontol}&theme=wooden-boarch&apikey=Alphabot`)
@@ -3573,7 +3573,7 @@ syaa.sendMessage(from, buffer, image, {quoted: mek, caption: shit})
 break
 case "roses":
 					  
-				if (args.length < 1) return reply(`Textnya Mana Cuy?\n*Contoh ${prefix}googlemaker ${prefix}roses arasya`)
+				if (args.length < 1) return reply(`Textnya Mana Cuy?\n*Contoh ${prefix}googlemaker ${prefix}roses R-BOT`)
 				reply('Bentar lagi di proses')
 kontol = body.slice(7)
 anu = await fetchJson(`https://rest-api-megumin1.herokuapp.com/api/textmaker/roses?text=${kontol}&theme=golden&apikey=Alphabot`)
@@ -3593,7 +3593,7 @@ syaa.sendMessage(from, image, {quoted: mek, caption: shit})
 break
 case "naruto2":
 					  
-				if (args.length < 1) return reply(`Textnya Mana Cuy?\n*Contoh ${prefix + command} Arasya Ganteng`)
+				if (args.length < 1) return reply(`Textnya Mana Cuy?\n*Contoh ${prefix + command} Rama Gamtemk`)
 				reply('Bentar lagi di proses')
 indobgt = body.slice(7)
 anu = await fetchJson(`https://api.zeks.me/api/naruto?apikey=apivinz&text=${indobgt}`)
@@ -3624,7 +3624,7 @@ case 'cuaca1': // pikirin sendiri lah tot,cape gw ngerjain sc kontol sampe malem
                 break
 case "pubglogo":
        
-				if (args.length < 1) return reply(`Textnya Mana Cuy?\n*Contoh ${prefix}pubglogo Arasya|Ganz`)
+				if (args.length < 1) return reply(`Textnya Mana Cuy?\n*Contoh ${prefix}pubglogo Rama|Ganz`)
 				reply('Sebentar lagi di buat')
      ct = body.slice(9)
      memek1 = ct.split("|")[0];
@@ -3646,7 +3646,7 @@ syaa.sendMessage(from, teks, text, {quoted: mek})
 costum(buffer, MessageType.document)
 break
 case "waifum":
-				if (args.length < 1) return reply(`Textnya Mana Cuy?\n*Contoh ${prefix + command}Arasya|Ganz`)
+				if (args.length < 1) return reply(`Textnya Mana Cuy?\n*Contoh ${prefix + command}Rama|Ganz`)
 				reply(mess.wait)
      ct = body.slice(8)
      memek1 = ct.split("|")[0];
@@ -3656,7 +3656,7 @@ case "waifum":
      syaa.sendMessage(from, buffer, image, {quoted: mek, caption: 'nih kack'})
      break
 case "ctahta":
-				if (args.length < 1) return reply(`Textnya Mana Cuy?\n*Contoh ${prefix}ctahta Arasya|Ganteng|`)
+				if (args.length < 1) return reply(`Textnya Mana Cuy?\n*Contoh ${prefix}ctahta Rama|Ganteng|`)
 				reply('Sebentar lagi di buat')
      ct = body.slice(9)
      memek1 = ct.split("|")[0];
@@ -3751,7 +3751,7 @@ case "hartatahta":
          syaa.sendMessage(from, buffer, image, {quoted: mek, caption : 'ini hasilnya kak....'})
          break   
 case "pppppp":
-				if (args.length < 1) return reply(`Textnya Mana Cuy?\n*Contoh ${prefix}glitch Arasya|Ganz`)
+				if (args.length < 1) return reply(`Textnya Mana Cuy?\n*Contoh ${prefix}glitch Rama|Ganz`)
 				reply('Sebentar lagi di buat')
      ct = body.slice(8)
      memek1 = ct.split("|")[0];
@@ -5448,7 +5448,7 @@ break
         case "nuliskiri":
         if (args.length < 1)
           return reply(
-            `Usage ${prefix + command} Arasya`
+            `Usage ${prefix + command} R-BOT`
           );
         var bodi = args.join(" ");
         reply("Sedang Menulis....");
@@ -5463,7 +5463,7 @@ break
         case "nuliskanan":
         if (args.length < 1)
           return reply(
-            `Usage ${prefix + command} Arasya`
+            `Usage ${prefix + command} R-BOT`
           );
         var bodi = args.join(" ");
         reply("Sedang Menulis....");
@@ -5478,7 +5478,7 @@ break
         case "foliokiri":
         if (args.length < 1)
           return reply(
-            `Usage ${prefix + command} Arasya`
+            `Usage ${prefix + command} R-BOT`
           );
         var bodi = args.join(" ");
         reply("Sedang Menulis....");
@@ -5493,7 +5493,7 @@ break
         case "foliokanan":
         if (args.length < 1)
           return reply(
-            `Usage ${prefix + command} Arasya`
+            `Usage ${prefix + command} R-BOT`
           );
         var bodi = args.join(" ");
         reply("Sedang Menulis....");
@@ -6234,7 +6234,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
           .message.extendedTextMessage.contextInfo;
         media = await syaa.downloadAndSaveMediaMessage(encmedia);
         anu = args.join(" ").split("|");
-        satu = anu[0] !== "" ? anu[0] : `Arasyaaa`;
+        satu = anu[0] !== "" ? anu[0] : `R-BOT`;
         dua = typeof anu[1] !== "undefined" ? anu[1] : `@sofunsyabi.id`;
         require("./lib/fetcher.js").createExif(satu, dua);
         require("./lib/fetcher.js").modStick(media, syaa, mek, from);
@@ -7346,7 +7346,7 @@ ${
             },
           ]);
         break
-if (budy.startsWith('@6281319944917')){
+if (budy.startsWith('@6281515589573')){
 result = fs.readFileSync(`./strg/stiker/saya.webp`)
   syaa.sendMessage(from, result, sticker, { quoted: mek })
                   }

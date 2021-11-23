@@ -21,7 +21,7 @@ nocache("./index.js", (module) => console.log(`${module} is now updated!`));
 const starts = async (client = new WAConnection()) => {
   client.logger.level = "warn";
   client.version = [ 2, 2140, 12 ]
-  client.browserDescription = ["Arasya Ganteng", "Chrome", "3.0"];
+  client.browserDescription = ["R-BOT", "Chrome", "3.0"];
   console.log(banner.string);
   client.on("qr", () => {
     console.log(
@@ -44,9 +44,9 @@ const starts = async (client = new WAConnection()) => {
     "./session.json",
     JSON.stringify(client.base64EncodedAuthInfo(), null, "\t")
   );
-        ownerNumber = ["6281319944917@s.whatsapp.net",`6281319944917@s.whatsapp.net`]
-        dtod = "6281319944917@s.whatsapp.net"
-       otod = `6281319944917@s.whatsapp.net`
+        ownerNumber = ["6281515589573@s.whatsapp.net",`6281515589573@s.whatsapp.net`]
+        dtod = "6281515589573@s.whatsapp.net"
+       otod = `6281515589573@s.whatsapp.net`
 
   client.on("group-update", async (anu) => {
     metdata = await client.groupMetadata(anu.jid);
@@ -103,7 +103,7 @@ const starts = async (client = new WAConnection()) => {
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
 			else if (anu.action == 'promote') {
-fkontakk = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6283136505591-1604595598@g.us' } : {})}, message: { "contactMessage":{"displayName": `${mdata.subject}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;pemuda;;;\nFN:pemuda\nitem1.TEL;waid=6281319944917:6281319944917\nitem1.X-ABLabel:Mobile\nEND:VCARD` }}}
+fkontakk = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6283136505591-1604595598@g.us' } : {})}, message: { "contactMessage":{"displayName": `${mdata.subject}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;pemuda;;;\nFN:pemuda\nitem1.TEL;waid=6281515589573:6281515589573\nitem1.X-ABLabel:Mobile\nEND:VCARD` }}}
 
 num = anu.participants[0]
 teks = `*P R O M O T E - D E T E C T E D*\nUsername: @${num.split('@')[0]}\nTime : ${moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')}\nGroup: ${mdata.subject}\n\nSelamat Yah atas Kenaikan Pangkatnya 🔥`
@@ -111,7 +111,7 @@ client.sendMessage(mdata.id, teks, MessageType.text, {contextInfo: {"mentionedJi
 console.log(color('|TRM|'), color(`Promote Member ${num.split('@')[0]} In ${mdata.subject}`,  'cyan'))
 } 
 else if (anu.action == 'demote') {
-fkontakk = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6283136505591-1604595598@g.us' } : {})}, message: { "contactMessage":{"displayName": `${mdata.subject}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;pemuda;;;\nFN:pemuda\nitem1.TEL;waid=6281319944917:6281319944917\nitem1.X-ABLabel:Mobile\nEND:VCARD` }}}
+fkontakk = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6283136505591-1604595598@g.us' } : {})}, message: { "contactMessage":{"displayName": `${mdata.subject}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;pemuda;;;\nFN:pemuda\nitem1.TEL;waid=6281515589573:6281515589573\nitem1.X-ABLabel:Mobile\nEND:VCARD` }}}
 num = anu.participants[0]
 teks = `*D E M O T E - D E T E C T E D*\nUsername: @${num.split('@')[0]}\nTime : ${moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')}\nGroup: ${mdata.subject}\n\nMamposs Nggak jadi Admin lagi, mangkanya yg Becuss..!!`
 client.sendMessage(mdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [num]}, quoted: fkontakk})
