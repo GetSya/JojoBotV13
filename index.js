@@ -116,13 +116,13 @@ gopay = "ga ada";
 limitawal = "20"
 ovo = "Ga ada";
 pulsa = "0815-1558-9573";
-dana = "Ga punya"
+dana = "Ga punya";
 namabot = "*R-Bot*";
 linkimg = "https://telegra.ph/file/fb08daf350ee2092c200f.jpg";
 /*ITU YG DI ATAS LINK IMAGENYA DONASI DANA YA KAWAN*/
 grupct = "https://chat.whatsapp.com/KTm4p53s6457qcV5aDOAPI";
 owner = "6281515589573";
-nama_owner = "RamaGans";:
+nama_owner = "RamaGans";
 instagram = "y.id";
 yt = "https://youtube.com/channel/UCZzt-Qw0zTYc8UP-LL2G5fA";
 fake = "*R - BOT*";
